@@ -22,6 +22,7 @@ import {
 } from "@/components/ui/accordion"
 import { KEY_STATS } from "@/lib/data/labour-market"
 import { CAREERS } from "@/lib/data/careers"
+import { FitChecker } from "@/components/marketing/fit-checker"
 
 export function Hero() {
   return (
@@ -74,6 +75,7 @@ export function Hero() {
               <p className="text-xs text-muted-foreground">Software Developer</p>
             </div>
           </Card>
+          <FitChecker />
         </div>
       </div>
     </section>
