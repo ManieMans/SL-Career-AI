@@ -13,7 +13,7 @@ export default function ChapterDownloadPage() {
           Download the prepared Chapter Four document directly. The file is served from the project&apos;s public download route.
         </p>
         <a
-          href="/Chapter_Four-ready-to-submit.docx"
+          href="/api/chapter-four"
           download="Chapter_Four-ready-to-submit.docx"
           className="mt-8 inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-400 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
         >
